@@ -1,0 +1,9 @@
+primeNumber.java:
+  memory_usage_point: 8
+  time_efficiency_point: 9
+  Summary: The code effectively uses the Sieve of Eratosthenes algorithm, which has
+    a time complexity of O(n log log n), making it quite efficient for generating
+    primes. Memory usage is decent, utilizing a boolean array of size (limit + 1),
+    leading to O(n) space complexity. The only area for improvement could be reducing
+    the size of the array by only storing relevant prime flags. Overall, both memory
+    and time complexity utilization are good, with minor adjustments possible.
