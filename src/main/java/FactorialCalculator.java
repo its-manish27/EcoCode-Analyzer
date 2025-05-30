@@ -47,4 +47,6 @@ public class FactorialCalculator {
         
         scanner.close(); // Close the Scanner
     }
+
+
 }
