@@ -1,9 +1,10 @@
-FactorialCalculator.java:
-  Summary: The code efficiently calculates the factorial of a number using an iterative
-    approach, which is better for memory usage than a recursive method. The use of
-    a long data type for the factorial result ensures that larger values are handled,
-    but it may still overflow for large integers. The infinite loop for user input
-    does not consume excessive memory, and input validation is in place. Optimizations
-    for handling really large factorials could be considered if necessary.
+primeNumber.java:
   memory_usage_point: 8
   time_efficiency_point: 9
+  Summary: The code utilizes the Sieve of Eratosthenes algorithm which is efficient
+    in both time and space for generating prime numbers. Memory usage is primarily
+    due to the boolean array, which scales linearly with the input limit. While this
+    approach is optimal for relatively small limits, for very large limits, memory
+    could become a concern. The time complexity is O(n log log n), making it highly
+    efficient for finding primes. The main area of concern is the memory usage for
+    very high limits, especially in large-scale applications.
