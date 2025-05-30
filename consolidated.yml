@@ -1,0 +1,9 @@
+FactorialCalculator.java:
+  Summary: The code efficiently calculates the factorial of a number using an iterative
+    approach, which is better for memory usage than a recursive method. The use of
+    a long data type for the factorial result ensures that larger values are handled,
+    but it may still overflow for large integers. The infinite loop for user input
+    does not consume excessive memory, and input validation is in place. Optimizations
+    for handling really large factorials could be considered if necessary.
+  memory_usage_point: 8
+  time_efficiency_point: 9
