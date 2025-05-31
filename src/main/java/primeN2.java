@@ -43,8 +43,6 @@ public class PrimeGenerator {
             }
         }
         System.out.println();
-
-
     }
     // Main method for testing
     public static void main(String[] args) {
