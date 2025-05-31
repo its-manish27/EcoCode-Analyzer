@@ -35,7 +35,6 @@ public class PrimeNumber {
                 }
             }
         }
-        //change
         // Print all prime numbers
         System.out.println("Prime numbers up to " + limit + ":");
         for (int i = 2; i <= limit; i++) {
