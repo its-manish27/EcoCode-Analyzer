@@ -35,6 +35,7 @@ public class PrimeNumber {
                 }
             }
         }
+        System.out.println("the sieve of Eratosthenes algorithm is used to find all prime numbers up to " + limit + ".");
         // Print all prime numbers
         System.out.println("Prime numbers up to " + limit + ":");
         for (int i = 2; i <= limit; i++) {
