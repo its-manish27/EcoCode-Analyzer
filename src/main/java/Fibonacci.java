@@ -10,6 +10,7 @@ public class Fibonacci {
         // Initialize the first two terms
         int first = 0, second = 1;
 
+
         System.out.println("Fibonacci series up to " + terms + " terms:");
         for (int i = 1; i <= terms; i++) {
             System.out.print(first + " ");

@@ -12,7 +12,7 @@
 
 import java.util.Arrays;
 
-public class PrimeNumber {
+public class PrimeGenerator {
 
     // Method to generate all prime numbers up to a given limit using the Sieve of Eratosthenes
     public static void sieveOfEratosthenes(int limit) {
@@ -20,7 +20,6 @@ public class PrimeNumber {
             System.out.println("No prime numbers less than 2.");
             return;
         }
-
 
         // Create a boolean array to mark prime numbers
         boolean[] isPrime = new boolean[limit + 1];
@@ -51,4 +50,6 @@ public class PrimeNumber {
     public static void main(String[] args) {
         sieveOfEratosthenes(50);  // Prints all prime numbers up to 50
     }
+
+
 }
