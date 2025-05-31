@@ -48,6 +48,4 @@ public class PrimeGenerator {
     public static void main(String[] args) {
         sieveOfEratosthenes(50);  // Prints all prime numbers up to 50
     }
-
-
 }
