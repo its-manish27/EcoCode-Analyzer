@@ -1,3 +1,6 @@
+// Summary: The code uses the Sieve of Eratosthenes algorithm, which is efficient in both time and space for generating prime numbers. Memory usage is primarily due to the boolean array marking prime numbers, which is optimal for this approach. However, the memory efficiency could be improved by using a bitset if the limit is significantly large, as it consumes less memory than a boolean array. The time complexity is O(n log log n), which is appropriate for the input size being tested.
+// Green Points: memory_usage_point: 8, time_efficiency_point: 9
+
 import java.util.Arrays;
 
 public class PrimeGenerator {
@@ -32,6 +35,8 @@ public class PrimeGenerator {
         }
         System.out.println();
     }
+
+
 
     // Main method for testing
     public static void main(String[] args) {
