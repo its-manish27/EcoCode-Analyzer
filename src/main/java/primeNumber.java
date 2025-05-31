@@ -1,3 +1,9 @@
+// Summary: The code implements the Sieve of Eratosthenes efficiently, achieving O(n log log n) time complexity. However, memory usage can be optimized by utilizing a bitset instead of a boolean array for larger limits, as the current implementation uses a boolean array which may become memory-intensive. For smaller limits, the memory usage is acceptable.
+// Green Points: memory_usage_point: 8, time_efficiency_point: 9
+
+// Summary: The code implements the Sieve of Eratosthenes efficiently, achieving O(n log log n) time complexity. However, memory usage can be optimized by utilizing a bitset instead of a boolean array for larger limits, as the current implementation uses a boolean array which may become memory-intensive. For smaller limits, the memory usage is acceptable.
+// Green Points: memory_usage_point: 8, time_efficiency_point: 9
+
 // Summary: The code implements the Sieve of Eratosthenes to generate prime numbers, which is efficient in both time (O(n log log n)) and space. However, the memory usage can be improved by using a bitset instead of a boolean array for large limits, as it would reduce memory consumption while maintaining operational efficiency. Additionally, for smaller limits, the current implementation is acceptable, balancing simplicity and performance.
 // Green Points: memory_usage_point: 8, time_efficiency_point: 9
 
