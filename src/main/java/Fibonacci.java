@@ -23,7 +23,8 @@ public class Fibonacci {
     public static void main(String[] args) {
         generateFibonacciSeries(10); // Prints the first 10 terms of the Fibonacci series
         System.out.println("Fibonacci series generated successfully.");
+        System.out.println("commited by user");
     }
-
+    //change
     //
 }

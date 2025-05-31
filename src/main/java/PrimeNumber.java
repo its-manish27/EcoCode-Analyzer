@@ -33,10 +33,9 @@ public class PrimeNumber {
                 for (int j = i * i; j <= limit; j += i) {
                     isPrime[j] = false;
                 }
-//adding comment for demo
             }
         }
-
+        //change
         // Print all prime numbers
         System.out.println("Prime numbers up to " + limit + ":");
         for (int i = 2; i <= limit; i++) {
