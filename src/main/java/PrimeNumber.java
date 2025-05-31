@@ -33,7 +33,7 @@ public class PrimeNumber {
                 for (int j = i * i; j <= limit; j += i) {
                     isPrime[j] = false;
                 }
-
+//
             }
         }
 
