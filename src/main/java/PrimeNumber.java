@@ -20,7 +20,7 @@ public class PrimeNumber {
             System.out.println("No prime numbers less than 2.");
             return;
         }
-
+        // commented to tesr
         // Create a boolean array to mark prime numbers
         boolean[] isPrime = new boolean[limit + 1];
         Arrays.fill(isPrime, true); // Assume all numbers are prime initially
