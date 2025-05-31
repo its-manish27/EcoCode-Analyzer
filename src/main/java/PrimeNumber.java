@@ -12,7 +12,7 @@
 
 import java.util.Arrays;
 
-public class PrimeGenerator {
+public class PrimeNumber {
 
     // Method to generate all prime numbers up to a given limit using the Sieve of Eratosthenes
     public static void sieveOfEratosthenes(int limit) {
