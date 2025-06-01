@@ -42,6 +42,7 @@ public class PrimeNumber {
             if (isPrime[i]) {
                 System.out.print(i + " ");
             }
+            //
         }
         System.out.println();
     }
